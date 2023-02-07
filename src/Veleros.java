@@ -23,6 +23,7 @@ public class Veleros extends Embarcacion {
             System.out.println("Disfruta tu viaje marítimo");
         }
     }
+
     public void veleroGrande(){
         if (mastiles>4) {
             System.out.println("Clasificacion de Velero segun sus mastiles:");

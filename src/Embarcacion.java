@@ -1,4 +1,4 @@
-public class Embarcacion {
+public abstract class Embarcacion {
     private int precioBase;
     private int valorAdicional;
     private int dateFabricacion;
@@ -12,10 +12,9 @@ public class Embarcacion {
         this.eslora = eslora;
     }
 
-    public void montoAlquiler(Capitan capitan){}
-
-    public void comprarYates(){};
-    public void veleroGrande(){};
+    public abstract void montoAlquiler(Capitan capitan);
+    public  void comprarYates(){};
+    public  void veleroGrande(){};
 
     public int getPrecioBase(){
         return this.precioBase;
